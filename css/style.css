@@ -15,7 +15,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  background: url("https://source.unsplash.com/1600x900/?water") no-repeat
+background: url("https://source.unsplash.com/1600x900/?ocean") no-repeat
     center center/cover;
   z-index: -1;
 }
