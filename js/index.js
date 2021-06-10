@@ -46,7 +46,7 @@ function displayDate() {
 }
 displayDate();
 
-window.onload = (event) => {
+let askName = () => {
   let username = prompt("Enter your name: ", "Guest");
   let greetDiv = document.querySelector(".greet");
   if (username == null) {
@@ -54,3 +54,5 @@ window.onload = (event) => {
   }
   greetDiv.innerHTML = "Hey , " + username + "!";
 };
+
+setTimeout(askName, 3000);
